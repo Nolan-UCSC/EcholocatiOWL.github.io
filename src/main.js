@@ -25,7 +25,7 @@ let config = {
     },
     width: 3500,
     height: 600,
-    scene: [ Load, playerAbilities, TitleScreen, PlatformerLevel, LossScreen, inbetween, Level2, Level3, WinScreen]
+    scene: [ Load, TitleScreen, PlayerAbilities,  PlatformerLevel, LossScreen, inbetween, Level2, Level3, WinScreen]
 }
 
 var cursors;
